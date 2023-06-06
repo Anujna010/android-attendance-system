@@ -40,23 +40,7 @@
         android:layout_height="65dp"
         android:backgroundTint="#533131"
         android:fontFamily="@font/architects_daughter"
-        android:text="login as teacher"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457" />
-
-    <Button
-        android:id="@+id/btn_student"
-        android:layout_width="276dp"
-        android:layout_height="62dp"
-        android:backgroundTint="#533131"
-        android:fontFamily="@font/architects_daughter"
-        android:text="login as student"
+        android:text="signup"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="20sp"
@@ -65,6 +49,23 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintVertical_bias="0.677" />
+
+    <Button
+        android:id="@+id/btn_teacher2"
+        android:layout_width="272dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#533131"
+        android:fontFamily="@font/architects_daughter"
+        android:text="login "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

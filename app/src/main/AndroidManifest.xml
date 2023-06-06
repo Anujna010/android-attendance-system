@@ -15,9 +15,6 @@
             android:name=".studentPage"
             android:exported="false" />
         <activity
-            android:name=".student_login"
-            android:exported="false" />
-        <activity
             android:name=".mainTeacherPage"
             android:exported="false" />
         <activity
